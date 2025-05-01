@@ -1,4 +1,7 @@
 # Using-the-Autopsy-retrieve-the-deleted-files
+## NAME : KARTHICK KISHORE T
+## REG NO : 212223220042
+
 ## AIM:
 To use Autopsy in Kali Linux to retrieve and analyze deleted files from a disk image.
 
@@ -13,10 +16,69 @@ Add a disk image as a data source and let Autopsy analyze the content.
 Navigate to the "Deleted Files" section in Autopsy and examine or recover the deleted files.
 
 ## PROGRAM:
-Autopsy Deleted File Recovery Steps
+### **1. Copy Files to the Virtual Disk**  
+- Open **File Explorer** → Go to the new drive (`C: or D:`), where the folder created in the New Virtual Disk
+- Create a new folder (`Autospy`) and copy **images or files** into it.  
 
-## OUTPUT:
-Recovered Deleted File List and Details
+### **2. Delete the Files**  
+- Select any one or two images → Press **Delete**.  
+- Empty the **Recycle Bin** to permanently delete them.  
+
+### **3. Recover Deleted Files Using Autopsy**  
+### **Open Autopsy & Create a New Case** 
+
+- Launch **Autopsy** and **Run as a administrator**  
+- Click **Create New Case**.  
+
+![](./images/a1.png)
+
+- Enter a **Case Name** (e.g., `Autopsy1`).  
+- Choose a **Case Folder** location.  
+- Click **Next** → Click **Finish**.  
+
+![](./images/a2.png)
+
+### **Add the Virtual Disk as an Evidence Source**  
+- Click **Add Data Source**  → **Select Host**
+
+![](./images/a3.png)
+
+- Select **Local Disk** → **next** 
+
+![](./images/a4.png)
+
+- Select Disk → **Choose the VHD drive (`Drive1`)**
+
+![](./images/a5.png)
+
+- Click **Next** → Keep default settings → Click **Finish**.  
+- Wait for Autopsy to process the disk.  
+
+### **Recover Deleted Files**  
+- Go to **File Views** (left panel).  
+
+!4.1[](./images/a6.png)
+
+!4.2[](./images/a7.png)
+
+- Click **Deleted Files** → Find your deleted images.  
+- Right-click an image → Click **Extract File**.  
+
+!4.3[](./images/a8.png)
+
+- Select a folder to see the recovered files (e.g., `C:\forensic`).  
+- Image is recovered successfully.
+
+
+## Output :
+### Folder before deleting the files
+!4.4[](./images/f1.png)
+
+### Folder after deleting the files
+!4.5[](./images/a9.png)
+
+### Folder after extracting the deleted images using autopsy
+!4.6[](./images/a10.png)
 
 ## RESULT:
 Deleted files were successfully retrieved and analyzed using Autopsy.
