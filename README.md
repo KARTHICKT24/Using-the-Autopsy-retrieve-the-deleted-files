@@ -1,6 +1,6 @@
 # Using-the-Autopsy-retrieve-the-deleted-files
 
-## ANME : KARTHICK KISHORE T
+## NAME : KARTHICK KISHORE T
 ## REG NO : 212223220042
 
 ## AIM:
