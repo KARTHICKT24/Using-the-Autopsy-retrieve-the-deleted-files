@@ -1,4 +1,5 @@
 # Using-the-Autopsy-retrieve-the-deleted-files
+
 ## NAME : KARTHICK KISHORE T
 ## REG NO : 212223220042
 
@@ -57,28 +58,28 @@ Navigate to the "Deleted Files" section in Autopsy and examine or recover the de
 ### **Recover Deleted Files**  
 - Go to **File Views** (left panel).  
 
-!4.1[](./images/a6.png)
+![](./images/a6.png)
 
-!4.2[](./images/a7.png)
+![](./images/a7.png)
 
 - Click **Deleted Files** → Find your deleted images.  
 - Right-click an image → Click **Extract File**.  
 
-!4.3[](./images/a8.png)
+![](./images/a8.png)
 
 - Select a folder to see the recovered files (e.g., `C:\forensic`).  
 - Image is recovered successfully.
 
 
-## Output :
+## OUTPUT:
 ### Folder before deleting the files
-!4.4[](./images/f1.png)
+![](./images/f1.png)
 
 ### Folder after deleting the files
-!4.5[](./images/a9.png)
+![](./images/a9.png)
 
 ### Folder after extracting the deleted images using autopsy
-!4.6[](./images/a10.png)
+![](./images/a10.png)
 
 ## RESULT:
 Deleted files were successfully retrieved and analyzed using Autopsy.
