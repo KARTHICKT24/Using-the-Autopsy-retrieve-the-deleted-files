@@ -1,4 +1,8 @@
 # Using-the-Autopsy-retrieve-the-deleted-files
+
+## ANME : KARTHICK KISHORE T
+## REG NO : 212223220042
+
 ## AIM:
 To use Autopsy in Kali Linux to retrieve and analyze deleted files from a disk image.
 
@@ -27,26 +31,26 @@ Navigate to the "Deleted Files" section in Autopsy and examine or recover the de
 - Launch **Autopsy** and **Run as a administrator**  
 - Click **Create New Case**.  
 
-![](./images/a1.png)
+![image](https://github.com/user-attachments/assets/fc3b6366-ef6d-415b-bf1d-ff9c5c81c2cb)
 
 - Enter a **Case Name** (e.g., `Autopsy1`).  
 - Choose a **Case Folder** location.  
 - Click **Next** → Click **Finish**.  
 
-![](./images/a2.png)
+![image](https://github.com/user-attachments/assets/d9d8c966-80d6-4a14-9c8d-229d10a7709a)
 
 ### **Add the Virtual Disk as an Evidence Source**  
 - Click **Add Data Source**  → **Select Host**
 
-![](./images/a3.png)
+![image](https://github.com/user-attachments/assets/194ef365-4774-4003-b2eb-f6444ca77993)
 
 - Select **Local Disk** → **next** 
 
-![](./images/a4.png)
+![image](https://github.com/user-attachments/assets/330e2e21-552b-4975-b64e-82383a611caa)
 
 - Select Disk → **Choose the VHD drive (`Drive1`)**
 
-![](./images/a5.png)
+![image](https://github.com/user-attachments/assets/e112c53c-035c-41f7-83d9-475ae90b6a5d)
 
 - Click **Next** → Keep default settings → Click **Finish**.  
 - Wait for Autopsy to process the disk.  
@@ -54,28 +58,31 @@ Navigate to the "Deleted Files" section in Autopsy and examine or recover the de
 ### **Recover Deleted Files**  
 - Go to **File Views** (left panel).  
 
-![](./images/a6.png)
+![image](https://github.com/user-attachments/assets/3e4affff-5e42-4980-ac1a-ce0d1629ac61)
 
-![](./images/a7.png)
+![image](https://github.com/user-attachments/assets/e3958db0-bb53-416e-8da4-fe3bc51f0837)
 
 - Click **Deleted Files** → Find your deleted images.  
 - Right-click an image → Click **Extract File**.  
 
-![](./images/a8.png)
+![image](https://github.com/user-attachments/assets/fe83ceeb-0094-468e-a229-2ab0a94feb34)
 
 - Select a folder to see the recovered files (e.g., `C:\forensic`).  
 - Image is recovered successfully.
 
 
-## OUTPUT:
+## Output :
 ### Folder before deleting the files
-![](./images/f1.png)
+
+![image](https://github.com/user-attachments/assets/1291788e-5645-42ce-a88f-68672fb78fb1)
 
 ### Folder after deleting the files
-![](./images/a9.png)
+
+![image](https://github.com/user-attachments/assets/2f6abdb7-4ccf-447d-9f71-fb90ee44fe3c)
 
 ### Folder after extracting the deleted images using autopsy
-![](./images/a10.png)
+
+![image](https://github.com/user-attachments/assets/84b537ff-e9a5-42ac-868c-7a5334344103)
 
 ## RESULT:
 Deleted files were successfully retrieved and analyzed using Autopsy.
