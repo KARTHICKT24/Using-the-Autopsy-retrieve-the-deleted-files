@@ -1,8 +1,4 @@
 # Using-the-Autopsy-retrieve-the-deleted-files
-
-## NAME : KARTHICK KISHORE T
-## REG NO : 212223220042
-
 ## AIM:
 To use Autopsy in Kali Linux to retrieve and analyze deleted files from a disk image.
 
